@@ -4,7 +4,6 @@ on:
   workflow_run:
     workflows: ["push"]
     types: 
-      - completed
       - requested
 
 jobs:
