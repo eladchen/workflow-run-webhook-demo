@@ -5,6 +5,7 @@ on:
     workflows: ["push"]
     types: 
       - requested
+      - completed
 
 jobs:
   job:
