@@ -1,7 +1,6 @@
-name: workflow run webhook
+name: "workflow run webhook"
 
-on: 
-  workflow_run:
+on: workflow_run
   
 jobs:
   job:
