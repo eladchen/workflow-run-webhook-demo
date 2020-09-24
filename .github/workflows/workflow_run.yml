@@ -1,7 +1,9 @@
 name: "workflow run webhook"
 
-on: workflow_run
-  
+on:
+  workflow_run:
+    types: [requested]
+
 jobs:
   job:
     name: Handle workflow_run webhook
