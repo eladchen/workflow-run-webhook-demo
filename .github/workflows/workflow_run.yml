@@ -2,7 +2,10 @@ name: "workflow run webhook"
 
 on:
   workflow_run:
-    types: [requested]
+    workflows: ["on workflow_run"]
+    types: 
+      - completed
+      - requested
 
 jobs:
   job:
