@@ -8,4 +8,4 @@ jobs:
     name: Testing
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ toJson(github.payload) }}"
+      - run: echo "${{ toJson(github.event) }}"
